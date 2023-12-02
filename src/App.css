@@ -14,7 +14,10 @@ border: 1px solid rgb(180, 180, 5);
 height: 80px;
 width: 80px;
 cursor: pointer;
-
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
 }
 .box:hover{
  box-shadow: 2px 5px 20px 2px rgb(204, 204, 95); 
@@ -28,4 +31,14 @@ cursor: pointer;
   width: fit-content;
   padding: 30px;
   border-radius: 5px;
+}
+.player-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 40px;
+}
+.diamond-image{
+  height: 50px;
+  margin-top: 20px;
 }
