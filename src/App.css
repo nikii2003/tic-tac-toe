@@ -42,3 +42,21 @@ font-size: 30px;
   height: 50px;
   margin-top: 20px;
 }
+.player-current{
+  text-align: center;
+  font-size: 25px;
+}
+.winner-container{
+text-align: center;
+}
+.reset-btn{
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 30px;
+
+  background-color: #666633;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
